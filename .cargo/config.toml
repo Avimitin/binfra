@@ -1,0 +1,3 @@
+[target.x86_64-unknown-linux-gnu]
+runner = "/usr/bin/sccache"
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
